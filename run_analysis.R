@@ -40,8 +40,8 @@ features_data <- rbind(features_train, features_test)
 #Part3
 
 ##Assigning names to variables and activities
-names(subject_data)<-c("subject")
-names(activity_data)<- c("activity")
+names(subject_data)<- "subject"
+names(activity_data)<- "activity"
 
 features_names <- read.table(file.path(path, "features.txt"),head=FALSE)
 names(features_data)<- features_names$V2
