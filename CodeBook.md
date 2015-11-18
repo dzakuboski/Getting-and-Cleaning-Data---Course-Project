@@ -7,37 +7,36 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing frequencyBodyAcc-XYZ, frequencyBodyAccJerk-XYZ, frequencyBodyGyroscope-XYZ, frequencyBodyAccJerkMagnitude, frequencyBodyGyroscopeMagnitude, frequencyBodyGyroscopeJerkMagnitude.
 
-These signals were used to estimate variables of the feature vector for each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+These signals were used to estimate variables of the feature vector for each pattern.'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions:
 
-###timeBodyAccelerometer-XYZ
-*timeGravityAccelerometer-XYZ
-*timeBodyAccelerometerJerk-XYZ
-*timeBodyGyroscope-XYZ
-*timeBodyGyroscopeJerk-XYZ
-*timeBodyAccelerometerMagnitude
-*timeGravityAccelerometerMagnitude
-*timeBodyAccelerometerJerkMagnitude
-*timeBodyGyroscopeMagnitude
-*timeBodyGyroscopeJerkMagnitude
-*frequency-XYZ
-*frequencyBodyAccelerometerJerk-XYZ
-*frequencyBodyGyroscope-XYZ
-*frequencyBodyAccelerometerMagnitude
-*frequencyBodyAccelerometerJerkMagnitude
-*frequencyBodyGyroscopeMagnitude
-*frequencyBodyGyroscopeJerkMagnitude
+####timeBodyAccelerometer-XYZ
+###timeGravityAccelerometer-XYZ
+###timeBodyAccelerometerJerk-XYZ
+###timeBodyGyroscope-XYZ
+###timeBodyGyroscopeJerk-XYZ
+###timeBodyAccelerometerMagnitude
+###timeGravityAccelerometerMagnitude
+###timeBodyAccelerometerJerkMagnitude
+###timeBodyGyroscopeMagnitude
+###timeBodyGyroscopeJerkMagnitude
+###frequency-XYZ
+###frequencyBodyAccelerometerJerk-XYZ
+###frequencyBodyGyroscope-XYZ
+###frequencyBodyAccelerometerMagnitude
+###frequencyBodyAccelerometerJerkMagnitude
+###frequencyBodyGyroscopeMagnitude
+###frequencyBodyGyroscopeJerkMagnitude
 
 The set of variables that were estimated from these signals are: 
 
-*mean(): Mean value
-*std(): Standard deviation
+###mean(): Mean value
+###std(): Standard deviation
 
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-*gravityMean
-*timeBodyAccelerometerMean
-*timeBodyAccelerometerJerkMean
-*timeBodyGyroscopeMean
-*timeBodyGyroscopeJerkMean
+###gravityMean
+###timeBodyAccelerometerMean
+###timeBodyAccelerometerJerkMean
+###timeBodyGyroscopeMean
+###timeBodyGyroscopeJerkMean
