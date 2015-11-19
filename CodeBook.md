@@ -40,5 +40,5 @@
 ######mean(): Mean value
 ######std(): Standard deviation
 
-#####Such measurements have been carried out a few dozen times for each activity performed by each of 30 subjects (a total of 10299 observations). 
-#####Then the carried out measurements were averaged.Due to such computations the tidy data set contains only 180 observations for each variable (1 for each of 6 activities performed by each of 30 tested subjects)
+#####The above-described measurements were made a few dozen times for each activity performed by each of 30 subjects (a total of 10299 observations). 
+#####Then the carried out measurements were averaged. Due to such computations the tidy data set contains only 180 observations for each variable - 1 for each of 6 activities performed by each of 30 tested subjects.
