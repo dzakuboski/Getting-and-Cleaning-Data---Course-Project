@@ -20,7 +20,7 @@ III. The third part assigns names to variables and activities.
 IV. The next, 4th part of code:
       * merges 3 sets (subject, activity, features) to create one data frame;
       * extracts only the measurements on the mean and standard deviation for each feature;
-      * labels appropriately features with more descriptive variable names, 	
+      * labels appropriately features with more descriptive variable names. 	
 
 V. The last one creates independent tidy data set (with the average of each variable for each activity and each subject).
 
