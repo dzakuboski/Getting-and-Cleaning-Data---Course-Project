@@ -27,12 +27,6 @@
 ######frequencyBodyGyroscopeMagnitude
 ######frequencyBodyGyroscopeJerkMagnitude
 
-#####The variables that were estimated from every of these signals are: 
-
-######mean(): Mean value
-######std(): Standard deviation
-
-
 #####Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
 ######gravityMean
@@ -41,5 +35,10 @@
 ######timeBodyGyroscopeMean
 ######timeBodyGyroscopeJerkMean
 
-???Ile obserwacji dla subjecta i danej aktywnoœci. Policzono œredni¹. To zmniejszy³o zmniejszy³o liczbê obserwacji z  do
-creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+#####The variables that were estimated from every of these signals are: 
+
+######mean(): Mean value
+######std(): Standard deviation
+
+#####Such measurements have been carried out a few dozen times for each activity performed by each of 30 subjects (a total of 10299 observations). 
+#####Then the carried out measurements were averaged.Due to such computations the tidy data set contains only 180 observations for each variable (1 for each of 6 activities performed by each of 30 tested subjects)
